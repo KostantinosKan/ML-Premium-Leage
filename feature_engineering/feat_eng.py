@@ -1,7 +1,8 @@
 import pandas as pd
 import os
 
-"""In this script we will convert the sport odds to percentages %100"""
+"""In this script we will convert the sport odds to the true 
+   probabilities that bookmaker uses."""
 
 DATASETS_file = "../cleaning"
 csv_file = "matches_cleaned.csv"
