@@ -1,6 +1,6 @@
 # Premium Leage Matches Predictions - Machine Learning
 
-In this project I will apply machine learning in order to predict the outcome of Premium Leage soccer matches. The purpose is to achieve better accuracy than bookmaker's. For this, I will convert bookmaker's odds to real (not implied) probabilities and compare them with my model's predictions. To this end, I will exclude bookmaker's odd features (h_odd, a_odd, d_odd), and I will build my model with the rest of the features.
+In this project I will apply machine learning in order to predict the outcome of Premium Leage soccer matches. The purpose is to achieve better accuracy than bookmaker's. For this, I will convert bookmaker's odds to real (not implied) probabilities and compare them with my model's predictions. To this end, I will exclude bookmaker's odd features (h_odd, a_odd, d_odd) from the dataset, and I will build my model with the rest of the features.
 
 ## Code and Resources Used
 **Python version:** 3.8.10<br/>
@@ -30,6 +30,9 @@ In this project I will apply machine learning in order to predict the outcome of
 * Split the dataset into training and test set.
 * Perform feature selection and select the best 20 features using the MRMR technique.
 #### Select Best Scaler
-I tested three scalers: MinMaxScaler(), StandardScaler(), and RobustScaler()
-Results:
+I tested three scalers: MinMaxScaler, StandardScaler, and RobustScaler.<br/>
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/best_scaler.JPG?raw=true)
 
+#### Select Best Model
+I tested five model algorithms: LogisticRegression, RandomForestClassifier, LGBMClassifier, XGBClassifier, KNeighborsClassifier.
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/best_model.JPG?raw=true)
