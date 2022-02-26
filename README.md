@@ -43,5 +43,8 @@ After choosing Logistic Regression as the best model among others, I turned it o
 ![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/final_results_2.JPG?raw=true)
 
 ### Results and Conclusion
-![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/ht_pie.JPG?raw=true)
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/ht_pie.JPG?raw=true)<br/>
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/at_pie.JPG?raw=true)<br/>
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/d_pie.JPG?raw=true)<br/>
+
 
