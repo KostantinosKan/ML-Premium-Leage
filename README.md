@@ -24,15 +24,21 @@ In this project I will apply machine learning in order to predict the outcome of
 * Check correlations between predictors and target feature.
 
 ### Step 4 - Machine Learning
+For the evaluation of the models I chose the accuracy score as evaluation metric since in our case we care for the prediction of the exact result, no matter what class it belongs to. Accuracy score is the total number of correct predictions divided by the total predictions.  
 #### Data Preprocessing
 * Convert categorical classes of target feature to integers.
 * Convert categorical features to dummies.
-* Split the dataset into training and test set.
+* Split the dataset into training(80%) and test (20%) set.
 * Perform feature selection and select the best 20 features using the MRMR technique.
 #### Select Best Scaler
-I tested three scalers: MinMaxScaler, StandardScaler, and RobustScaler.<br/>
+I tested three scalers: MinMaxScaler, StandardScaler, and RobustScaler.<br></br>
 ![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/best_scaler.JPG?raw=true)
 
 #### Select Best Model
-I tested five model algorithms: LogisticRegression, RandomForestClassifier, LGBMClassifier, XGBClassifier, KNeighborsClassifier.
+After the selection of MinMaxScaler as the best scaler, I tested five model algorithms: LogisticRegression, RandomForestClassifier, LGBMClassifier, XGBClassifier, KNeighborsClassifier.<br></br>
 ![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/best_model.JPG?raw=true)
+
+#### Hyperparameter Tuning of Best Model and Evaluation Results
+After choosing Logistic Regression as the best model among others, I turned it over with the best parameters and then adapted it to the training data. After that, to also check for over-fitting, I evaluated the accuracy of the model in both the training and the test set. I also did cross validation for better evaluation. Here the results:<br></br>
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/final_results.JPG?raw=true)
+
