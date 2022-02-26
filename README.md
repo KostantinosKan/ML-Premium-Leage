@@ -45,6 +45,6 @@ After choosing Logistic Regression as the best model among others, I turned it o
 ### Results and Conclusion
 ![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/ht_pie.JPG?raw=true)<br/>
 ![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/at_pie.JPG?raw=true)<br/>
-![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/d_pie.JPG?raw=true)<br/>
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/d_pie.JPG?raw=true)<br></br>
 
-
+The above pie charts informs us how much more accurate our model was, compared to that of the bookmaker, on predicting correctly each outcome. For example, in the first pie chart, our model predicted with higher accuracy that the winner will be the HOME_TEAM, in ~64% of the times. The same appplies and for the other pie charts. The results was very satisfying and in fact they can further be improved using Neural Network Algorithms. However, despite the certainty of our results, we will always end up with a lower profit, and this is mainly due to the fact that betting companies use their own machine learning algorithms to create the odds of the match. 
