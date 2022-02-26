@@ -40,5 +40,8 @@ After the selection of MinMaxScaler as the best scaler, I tested five model algo
 
 #### Hyperparameter Tuning of Best Model and Evaluation Results
 After choosing Logistic Regression as the best model among others, I turned it over with the best parameters and then adapted it to the training data. After that, to also check for over-fitting, I evaluated the accuracy of the model in both the training and the test set. I also did cross validation for better evaluation. Here the results:<br></br>
-![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/final_results.JPG?raw=true)
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/final_results_2.JPG?raw=true)
+
+### Results and Conclusion
+![alt text](https://github.com/KostantinosKan/ML-Premium-Leage/blob/main/data/pictures/ht_pie.JPG?raw=true)
 
