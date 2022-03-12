@@ -1,3 +1,4 @@
+#### Authors: Kanaris Konstantinos, Lazaros Kosmas
 # Premium Leage Matches Predictions - Machine Learning
 
 In this project I will apply machine learning in order to predict the outcome of Premium Leage soccer matches. The purpose is to achieve better accuracy than bookmaker's. For this, I will convert bookmaker's odds to real (not implied) probabilities and compare them with my model's predictions. To this end, I will exclude bookmaker's odd features (h_odd, a_odd, d_odd) from the dataset, and I will build my model with the rest of the features.
